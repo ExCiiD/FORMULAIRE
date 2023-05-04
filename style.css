@@ -64,7 +64,7 @@ img {
   width: 50%;
 }
 
-section {
+header {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
