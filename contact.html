@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section>
+        <div class="left-section">
+        <img src="contact.jpg" alt="image contact">
+        </div>
+      <form action="contact.html" method="get" class="right-section">
+        <h1>contact</h1>
+        <div class="item">
+          <label for="Nom">Nom :</label>
+          <input type="text" name="Nom" />
+        </div>
+        <div class="item">
+          <label for="Nom">Prenom :</label>
+          <input type="text" name="Nom" />
+        </div>
+        <div class="item">
+          <label for="adresse">Adresse :</label>
+          <input type="text" name="adresse" />
+        </div>
+        <div class="item">
+          <label for="tel">N° de tel :</label>
+          <input type="tel" name="tel" />
+        </div>
+        <div class="item">
+          <label for="mail">Email :</label>
+          <input type="email" name="mail" />
+        </div>
+        <div class="type-profil">
+          <br />
+          <div>
+          <label for ="type-profil">type de profil:</legend>
+          </div>
+          <div class="choix-type">
+          <div>
+          <label for="personnel">personnel</label>
+          <input type="radio" name="profil" value="personnel" />
+          </div>
+          <div>
+          <label for="entreprise">entreprise</label>
+          <input type="radio" name="profil" value="entreprise" />
+          </div>
+          </div>
+        </div>
+        <div class="item">
+          <label for="entreprise">Nom d'entreprise :</label>
+          <input type="text" name="entreprise" />
+        </div>
+        <div class="item">
+          <label for="sujet">Le sujet de votre demande :</label>
+
+          <select name="sujet">
+            <option value="sujet1">sujet1</option>
+            <option value="sujet2">sujet2</option>
+            <option value="sujet3">sujet3</option>
+            <option value="sujet4">sujet4</option>
+          </select>
+        </div>
+        <div class="item">
+          <label for="date">Date :</label>
+          <input type="date" name="date" />
+        </div>
+        <div class="item">
+          <label for="demande">Votre Demande</label>
+          <textarea name="demande"></textarea>
+        </div>
+        <input class="button" type="submit" />
+      </form>
+    </section>
+  </body>
+</html>
