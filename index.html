@@ -10,9 +10,9 @@
 
   <body>
     <section>
-        <div class="left-section">
-        <img src="contact.jpg" alt="image contact">
-        </div>
+      <div class="left-section">
+        <img src="contact.jpg" alt="image contact" />
+      </div>
       <form action="contact.html" method="get" class="right-section">
         <h1>contact</h1>
         <div class="item">
@@ -38,17 +38,27 @@
         <div class="type-profil">
           <br />
           <div>
-          <label for ="type-profil">type de profil:</legend>
+            <legend>type de profil:</legend>
           </div>
           <div class="choix-type">
-          <div>
-          <label for="personnel">personnel</label>
-          <input id="personnel" type="radio" name="profil" value="personnel" />
-          </div>
-          <div>
-          <label for="entreprise">entreprise</label>
-          <input id="entreprise" type="radio" name="profil" value="entreprise" />
-          </div>
+            <div>
+              <label for="personnel">personnel</label>
+              <input
+                id="personnel"
+                type="radio"
+                name="profil"
+                value="personnel"
+              />
+            </div>
+            <div>
+              <label for="entreprise">entreprise</label>
+              <input
+                id="entreprise"
+                type="radio"
+                name="profil"
+                value="entreprise"
+              />
+            </div>
           </div>
         </div>
         <div class="item">
@@ -58,7 +68,7 @@
         <div class="item">
           <label for="sujet">Le sujet de votre demande :</label>
 
-          <select name="sujet">
+          <select id="sujet" name="sujet">
             <option value="sujet1">sujet1</option>
             <option value="sujet2">sujet2</option>
             <option value="sujet3">sujet3</option>
@@ -73,7 +83,7 @@
           <label for="demande">Votre Demande</label>
           <textarea id="demande" name="demande"></textarea>
         </div>
-        <input class="button" type="submit" />
+        <input type="submit" value="envoyer" />
       </form>
     </section>
   </body>
