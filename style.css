@@ -71,5 +71,12 @@ header {
   width: 90%;
   height: 700px;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: center; /* pour que l'image et le formulaire soit aligne quand l'ecran retrecit (responsive) */
+}
+
+/* interactions */
+
+input[type="submit"]:hover {
+  box-shadow: 0 0 10px #0099ff;
+  font-weight: bold;
 }
